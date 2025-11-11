@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tömb elemének módosítása</title>
+</head>
+<body>
+    
+    <h3>Tömb elemének módosítása</h3>
+
+    <strong>Előtte: </strong> <p id="Q5A3L5"></p>
+    <strong>Utána: </strong> <p id="Q5A3L5"></p>
+
+    <button onclick="modosit()">Tömbelem módosítása</button>
+
+    <script>
+        let prognyelvek = ["HTML5", "CSS", "JS"];
+        document.getElementById("Q5A3L5").innerHTML = prognyelvek;
+        prognyelvek[1] = "C nyelv";
+
+        function modosit() {
+            document.getElementById("Q5A3L5").innerHTML = prognyelvek;
+        }
+        
+    </script>
+
+</body>
+</html>
