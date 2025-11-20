@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json könyv</title>
+</head>
+<body>
+    <header>
+        <h1>
+            JSON megvalósítása - JavaScript
+        </h1>
+
+        <h3>
+            Könyvek listája
+        </h3>
+
+        <div id="konyvlista"></div>
+
+        <script>
+
+            let konyvekJSON = 
+            {
+                 "konyvek": {
+                 "konyv":[
+            {
+                "iro": "Nyékyné Dr. Gaizler Judit",
+                "cim": "Java 2 I-II. - Útikalauz programozóknak 5.0",
+                "kiadas": 2009
+            },
+            {
+                "iro": "Reiter István",
+                "cim": "C# programozás lépésről lépésre",
+                "kiadas": 2018
+            }
+        ]
+    }
+};
+
+        let konyvlistaelem = document.getElementById("konyvlista");
+
+        let konyvlistahtml = "<ul>";
+
+            for (let i = 0; i < konyvekJSON.konyvek.konyv.length; i++) {
+                let konyv = konyvekJSON.konyvek.konyv[i];
+                konyvlistahtml += "<li><strong>Író: </strong>" + konyv.iro + "<strong> Cím: </strong>" + konyv.cim + "<strong> Kiadás: </strong> " + konyv.kiadas + "</li>";
+            }
+
+            konyvlistahtml += "</ul>";
+
+            konyvlistaelem.innerHTML = konyvlistahtml;
+
+        </script>
+    </header>
+</body>
+</html>

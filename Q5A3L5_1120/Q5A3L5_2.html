@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery feladatok_2.</title>
+
+    <script src="JQuery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("btn").click(function(){
+                $("ul li:first").hide();
+                $("ul li:first-child").hide();
+                $("[href]").hide();
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <h2 class="fejlec">JQuery feladatok 2</h2>
+
+    <p><strong>A JQuery egy JavaScript programozói könyvtár, amely John Resig kezdett fejleszteni. </strong></p>
+    <p>Elterjedtnek tekinthető, segítségével könnyen bejárható egy HTML oldal DOM-ja.</p>
+
+    <ul>
+        <li>tíz</li>
+        <li>Húsz</li>
+        <li>Harminc</li>
+    </ul>
+
+    <ul>
+        <li>tizedik</li>
+        <li>huszadik</li>
+        <li>harmincadik</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>1111aaaaa</td>
+            <td>bbbbb</td>
+        </tr>
+        <tr>
+            <td>2222aaaaa</td>
+            <td>bbbbb</td>
+        </tr>
+        <tr>
+            <td>3333aaaaa</td>
+            <td>bbbbb</td>
+        </tr>
+        <tr>
+            <td>4444aaaaa</td>
+            <td>bbbbb</td>
+        </tr>
+        <tr>
+            <td>5555aaaaa</td>
+            <td>bbbbb</td>
+        </tr>
+    </table>
+
+    <btn onclick="$('a').hide()"><strong>Kattints ide!</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <btn onclick="$('this').hide()"><strong>Kattints ide_2</strong></btn>
+
+    &nbsp;&nbsp;&nbsp;
+
+    <btn onclick="$('.fejlec').hide()"><strong>Kattints ide_3</strong></btn>
+
+    THE weboldal:
+    <a href="https://unithe.hu/">Tokaj Hegyalja Egyetem</a>
+</body>
+</html>
