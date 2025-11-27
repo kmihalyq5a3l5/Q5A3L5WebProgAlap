@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objektum létrehozása</title>
+</head>
+<body>
+    <h3>Objektum létrehozása</h3>
+    <p id="Q5A3L5"></p>
+
+    <button onclick="kiir()">Adatok kiiratása</button>
+
+    <script>
+        const hallgato = {
+            nev: "KM",
+            eletkor: 20,
+            egyetem: "THE",
+            szak: "PTI"
+        };
+
+        function kiir() {
+            document.getElementById("Q5A3L5").innerHTML = "<b>Név:</b>" + hallgato.nev + ", <br> <b>Életkor: </b>" + hallgato.eletkor + ",<br> <b>Egyetem:</b>" + hallgato.egyetem + ",<br> <b>Szak:</b> " + hallgato.szak;
+        }
+    </script>
+</body>
+</html>

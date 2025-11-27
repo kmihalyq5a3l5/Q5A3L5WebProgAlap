@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objektum létrehozása JS belül</title>
+</head>
+<body>
+    <h3>Objektum lekérése</h3>
+    <p id="Q5A3L5"></p>
+
+    <button onclick="kiir()">Adatok kiiratása</button>
+
+    <script>
+        const hallgato = {
+            nev: "KM",
+            eletkor: 20,
+            egyetem: "THE",
+            szak: "PTI",
+
+            osszesAdat: function() {
+                return "Név: " + hallgato.nev + ",<br> Életkor: " + hallgato["eletkor"] + ", <br> Egyetem: " + hallgato["egyetem"] + ", <br> Szak: " + hallgato.szak;
+            }
+        };
+
+        function kiir() {
+            document.getElementById("Q5A3L5").innerHTML = hallgato.osszesAdat();
+        }
+    </script>
+</body>
+</html>
