@@ -1,0 +1,154 @@
+{
+    "ora": [
+        {
+                "targy": "Programozás alapjai",
+                "idopont": {
+                    "nap": "hétfő",
+                    "tol": 8,
+                    "ig" : "11:15"
+                },
+                "helyszin": "Online",
+                "oktato": "Gégény Dávid",
+                "szak": "PTI",
+                "tipus": "Gyakorlat,Elmélet"
+            },
+            {
+                "targy": "Bevezetés TEX-be",
+                "idopont": {
+                    "nap": "hétfő",
+                    "tol": 14,
+                    "ig": "17:30"
+                },
+                "helyszin": "Online",
+                "oktato": "Dr Veres Laura",
+                "szak": "PTI",
+                "tipus": "Gyakorlat"
+            },
+            {
+                "targy": "Webprogramozás alapjai",
+                "idopont": {
+                    "nap": "kedd",
+                    "tol": 8,
+                    "ig": "9:35"
+                },
+                "helyszin": "Inf. 124",
+                "oktato": "Dr. Bednarik László",
+                "szak": "PTI",
+                "tipus": "Gyakorlat"
+            },
+            {
+                "targy": "Diszkrét matematika és lineáris algebra",
+                "idopont": {
+                    "nap": "kedd",
+                    "tol": 10,
+                    "ig": "12:55"
+                },
+                "helyszin": "117-es tanterem",
+                "oktato": "Dr. Földvári Attila József",
+                "szak": "PTI",
+                "tipus": "Elmélet"
+            },
+            {
+                "targy": "Testnevelés I.",
+                "idopont": {
+                    "nap": "Kedd",
+                    "tol": "18:25",
+                    "ig": "19:10"
+                },
+                "helyszin": "Szent Erzsébet Katolikus Általános Iskola Tornaterem",
+                "oktato": "Bodnár Fruzsina",
+                "szak": "PTI",
+                "tipus": "Gyakorlat"
+            },
+            {
+                "targy": "Idegen Nyelv I.",
+                "idopont": {
+                    "nap": "szerda",
+                    "tol": "15:15",
+                    "ig": "18:20"
+                },
+                "helyszin": "111-es tanterem",
+                "oktato": "Kováts Imre Győző",
+                "szak": "PTI",
+                "tipus": "Gyakorlat"
+            },
+            {
+                "targy": "Webprogramozás alapjai",
+                "idopont": {
+                    "nap": "csütörtök",
+                    "tol": 8,
+                    "ig": "9:35"
+                },
+                "helyszin": "Inf. 124",
+                "oktato": "Dr. Bednarik László",
+                "szak": "PTI",
+                "tipus": "Gyakorlat"
+            },
+            {
+                "targy": "Számítógép architektúrák",
+                "idopont": {
+                    "nap": "csütörtök",
+                    "tol": 10,
+                    "ig": "11:15"
+                },
+                "helyszin": "Inf. 124",
+                "oktato": "Dr. Bednarik László",
+                "szak": "PTI",
+                "tipus": "Elmélet"
+            },
+            {
+                "targy": "Az informatika logikai alapjai",
+                "idopont": {
+                    "nap": "csütörtök",
+                    "tol": 16,
+                    "ig": "19:10"
+                },
+                "helyszin": "Online",
+                "oktato": "Dr. Godó Zoltán Attila",
+                "szak": "PTI",
+                "tipus": "Elmélet"
+            },
+            {
+                "targy": "Testnevelés I.",
+                "idopont": {
+                    "nap": "csütörtök",
+                    "tol": "18:25",
+                    "ig": "19:10"
+                },
+                "helyszin": "Szent Erzsébet Katolikus Általános Iskola Tornaterem",
+                "oktato": "Bodnár Fruzsina",
+                "szak": "PTI",
+                "tipus": "Gyakorlat"
+            },
+            {
+                "targy": "Bevezetés az informatikába",
+                "idopont": {
+                    "nap": "péntek",
+                    "tol": "13:30",
+                    "ig": "17:30"
+                },
+                "helyszin": "Online",
+                "oktato": "Janics Tamás",
+                "szak": "PTI",
+                "tipus": "Elmélet"
+            }
+        ],
+          "cim":
+  {
+    "irányítószám": 3950,
+    "város": "Sárospatak",
+    "utca": "Eötvös 7."
+  },
+
+  "telefonszam":
+  [
+    {
+      "tipus": "Vezetékes",
+      "szam": "0647 513-000"
+    },
+    {
+      "tipus": "Mobil",
+      "szam": "0670 555-4567"
+    }
+  ]
+    }
