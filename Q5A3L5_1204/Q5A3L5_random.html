@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random szám generálása</title>
+</head>
+<body>
+    
+    <h2>Random szám generálása</h2>
+
+    <p id="Q5A3L5"></p>
+
+    <h3>0 és 1 közötti szám generálása</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = Math.random();">Random szám generálása</button>
+
+    <h3>[1;10[ között random generált szám</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = Math.random()*10;">1-nél nagyobb szám generálása</button>
+
+    <h3>[0;99[ random generált szám</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = Math.random()*100;">1-nél nagyobb random szám generálása</button>
+
+    <h3>[0;x[ random generált szám</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = Math.random()*500+1;">0-tól x-ig random szám generálása</button>
+
+    <h3>0 és 9 közötti egész szám generálása</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = Math.floor(Math.random()*10);">0 és 199 közötti egész szám generálása</button>
+
+    <h3>0 és 99 közötti egész szám generálása</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = Math.floor(Math.random()*100)+100;">0 és 199 közötti egész szám generálása</button>
+
+    <h3>Random szám generálása intervallum megadásával</h3>
+    <button onclick="document.getElementById('Q5A3L5').innerHTML = random(30,80)">Random szám generálása</button>
+
+    <script>
+        function random(min, max) {
+            return Math.floor(Math.random() * (max - min + 10) ) + min;
+        }
+    </script>
+</body>
+</html>
